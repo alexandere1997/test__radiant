@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+:root{
+    --swiper-theme-color: #FFBC21 !important;
+    --sq-color: 0px;
+}
+.swiper-pagination-bullet-active{
+    color: var(--swiper-theme-color);
+}
+
+    
+    

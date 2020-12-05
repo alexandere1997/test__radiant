@@ -1,0 +1,123 @@
+@media (max-width: 1472px)
+    .notranja
+        &__items
+            flex-direction: column
+        &__item
+            width: 434px;
+@media (max-width: 1199px)
+    .nav
+        display: flex
+    .header
+        height: 54px
+        position: fixed;
+        z-index: 100;
+        width: 100%;
+        &__navbar
+            display: none
+        &__contact
+            display: none
+        &__text
+            p
+                display: none
+            h5
+                margin-top: 67px;
+                font-size: 18px;
+        &__info
+            width: 80px;
+            order: -1;
+            margin-left: 0
+            img
+                margin-left: 0 !important
+                width: 79px !important;
+                margin-top: 4px !important;
+        &__line
+            display: flex
+        &__logotype
+            z-index: 100;
+            img
+                margin-left: 48px;
+                width: 61px;
+                margin-top: 9px;
+    .footer
+        &__info
+            flex-direction: column
+@media (max-width: 991px)
+    .header
+        &__container
+            width: 90%
+    .info
+        height: auto
+        &__container
+            width: 90%
+        &__box
+            flex-direction: column;
+            height: 195px;
+            margin-top: 30px
+            margin-bottom: 30px
+        &__item
+            h4
+                margin: 0
+    .footer
+        height: auto
+        &__container
+            width: 90%
+        &__content
+            flex-direction: column
+        &__head
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+        &__btn
+            width: 269px;
+        &__inner
+            margin-top: 0px;
+        &__logo
+            img
+                order: -1;
+@media (max-width: 575px)
+    .slider
+        &__image
+            width: 100% !important
+        &__title
+            font-size: 25px
+    .footer
+        &__container
+            background: url(../img/footer/MaskGroup6.svg) no-repeat 56% -1%;
+    .notranja
+        &__item
+            height: 124px;
+            background-color: #FFF;
+            overflow: hidden;
+            width: 100%
+            h4
+                margin-left: 70px;
+                font-size: 22px;
+            img
+                width: 8%;
+                margin-top: 44px;
+                margin-left: 21px;
+        &__arrow
+            display: flex
+            margin-left: 70% !important;
+            margin-top: 37px !important;
+            cursor: pointer
+            transform: rotate(0deg);
+            transition: 0.5s
+        &__button
+            flex-direction: column
+            a
+                background-color: #003E84;
+                color: #fff
+                &:nth-child(2)
+                    position: absolute
+                    bottom: -1130px;
+                    transition: 0.5s
+        &__wrapper
+            display: flex !important
+            margin-top: 150px
+    .active
+        height: 300px
+    .active__btn
+        transform: rotate(180deg);
+    .active__ad
+        bottom: -1282px !important;
