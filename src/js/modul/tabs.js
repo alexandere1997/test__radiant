@@ -21,6 +21,4 @@ let tabs = () => {
     }
 
 }
-
-console.log(document.documentElement.clientWidth)
 export default tabs;

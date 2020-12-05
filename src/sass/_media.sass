@@ -38,10 +38,15 @@
                 margin-left: 48px;
                 width: 61px;
                 margin-top: 9px;
+    .slider
+        padding-top: 54px;
     .footer
         &__info
             flex-direction: column
 @media (max-width: 991px)
+    .notranja
+        &__container
+            width: 90%
     .header
         &__container
             width: 90%
@@ -84,14 +89,19 @@
         &__container
             background: url(../img/footer/MaskGroup6.svg) no-repeat 56% -1%;
     .notranja
+        &__wrapper
+            img
+                width: 20%
+        &__title
+            font-size: 30px
         &__item
-            height: 124px;
+            height: 110px;
             background-color: #FFF;
             overflow: hidden;
             width: 100%
             h4
                 margin-left: 70px;
-                font-size: 22px;
+                font-size: 18px;
             img
                 width: 8%;
                 margin-top: 44px;
@@ -109,15 +119,15 @@
                 background-color: #003E84;
                 color: #fff
                 &:nth-child(2)
-                    position: absolute
-                    bottom: -1130px;
-                    transition: 0.5s
+                    display: none
         &__wrapper
             display: flex !important
-            margin-top: 150px
+            margin-top: 20px
+        &__btn_button
+            display: flex
+            margin: 0 auto;
+            margin-top: 20px;
     .active
         height: 300px
     .active__btn
         transform: rotate(180deg);
-    .active__ad
-        bottom: -1282px !important;
