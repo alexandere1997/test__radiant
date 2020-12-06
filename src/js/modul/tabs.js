@@ -2,7 +2,20 @@ let tabs = () => {
     const notranja__button = document.querySelectorAll(".notranja__button a");
 
     if(document.documentElement.clientWidth < 575) {
-        return;
+        const notranja__btn_button = document.querySelector(".notranja__btn_button");
+        const notranja__btn_one = document.querySelector(".notranja__btn_one");
+        const box1 = document.querySelector(".notranja__inner");
+        const box2 = document.querySelector(".notranja__wrapper");
+    
+        notranja__btn_button.addEventListener("click", (e) => {
+            e.preventDefault();
+            box2.classList.toggle("active__dispaly_f");
+            box2.classList.remove("notranja__box_active")
+        });
+        notranja__btn_one.addEventListener("click", (e) => {
+            e.preventDefault();
+            box1.classList.toggle("active__dispaly_b");
+        })
     }
     else {
         notranja__button.forEach((el) => {
